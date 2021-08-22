@@ -1,0 +1,17 @@
+.navContainer {
+  padding-top: 20px;
+}
+
+.navContainer .item {
+  padding: 10px 20px;
+}
+
+.navContainer .item a {
+  color: grey;
+  text-decoration: none;
+}
+
+.navContainer .item a.activeLink {
+  color: #fff;
+}
+/*# sourceMappingURL=Navbar.module.css.map */

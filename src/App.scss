@@ -1,0 +1,28 @@
+// .app-wrapper {
+//   background-color: #808080;
+//   height: 100vh;
+// }
+
+.appWrapper {
+  display: grid;
+  grid-template-columns: 200px calc(100vw - 200px);
+  grid-template-rows: 80px calc(100vh - 80px);
+  gap: 0px 0px;
+  grid-template-areas:
+    'header header'
+    'nav content';
+}
+.appHeader {
+  grid-area: header;
+  background-color: grey;
+}
+
+.appNavbar {
+  grid-area: nav;
+  background-color: black;
+}
+
+.appContent {
+  grid-area: content;
+  background-color: red;
+}
