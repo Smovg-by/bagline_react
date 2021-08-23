@@ -1,11 +1,12 @@
 .container {
+  margin: 40px auto;
   max-width: 600px;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
   .table {
-    background-color: rgb(201, 201, 201);
+    background-color: #fff;
     border-spacing: 0;
     border-collapse: collapse;
     text-align: center;
