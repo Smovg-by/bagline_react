@@ -9,7 +9,7 @@
       grid-template-areas: 'header header' 'nav content';
 }
 
-.appHeader {
+.appWrapper .appHeader {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
@@ -17,17 +17,17 @@
   background-color: grey;
 }
 
-.appNavbar {
+.appWrapper .appNavbar {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
   grid-area: nav;
   background-color: black;
 }
 
-.appContent {
+.appWrapper .appContent {
   -ms-grid-row: 2;
   -ms-grid-column: 2;
   grid-area: content;
-  background-color: red;
+  background-color: #969696;
 }
 /*# sourceMappingURL=App.css.map */

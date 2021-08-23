@@ -19,9 +19,9 @@ function App() {
         </div>
         <div className='appContent'>
           <Route path="/stock" render={() => <StockContainer />} />
-          <Route path="/neworder" render={()=><NewOrderContainer/>}/>
-         <Route path="/orders" render={()=><OrdersContainer/>}/>
-         <Route path="/confirm" render={()=><ConfirmContainer/>}/>
+          <Route path="/neworder" render={() => <NewOrderContainer />} />
+          <Route path="/orders" render={() => <OrdersContainer />} />
+          <Route path="/confirm" render={() => <ConfirmContainer />} />
         </div>
       </div>
     </BrowserRouter>

@@ -1,0 +1,46 @@
+.container {
+  max-width: 600px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.container .table {
+  background-color: #c9c9c9;
+  border-spacing: 0;
+  border-collapse: collapse;
+  text-align: center;
+  width: 100%;
+  border: 2px solid black;
+}
+
+.container .table .head {
+  padding: 5px;
+  border-style: solid;
+  padding: 10px 20px;
+  border: 2px solid black;
+}
+
+.container .table .head .row {
+  font-weight: 700;
+}
+
+.container .table .foot {
+  border: 2px solid black;
+}
+
+.container .table .foot .row {
+  font-weight: 700;
+}
+
+.container .btn {
+  margin-top: 20px;
+  color: red;
+}
+/*# sourceMappingURL=StockContainer.module.css.map */
