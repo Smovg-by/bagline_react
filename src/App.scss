@@ -5,7 +5,7 @@
 
 .appWrapper {
   display: grid;
-  grid-template-columns: 200px calc(100vw - 200px);
+  grid-template-columns: minmax(50px, 200px) minmax(280px, 1fr);
   grid-template-rows: 80px calc(100vh - 80px);
   gap: 0px 0px;
   grid-template-areas:
